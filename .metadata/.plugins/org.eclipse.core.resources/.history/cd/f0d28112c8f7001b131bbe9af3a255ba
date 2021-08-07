@@ -6,7 +6,7 @@ public class ContiguousArrayLargestSum {
 		int max_so_far = num[0];
 		int current_max = num[0];
 		
-		for (int i = 0; i<=num.length-1;i++) {
+		for (int i = 0; i<num.length;i++) {
 			current_max = Math.max(num[i], current_max+num[i]);
 			max_so_far = Math.max(current_max,max_so_far);
 		}
