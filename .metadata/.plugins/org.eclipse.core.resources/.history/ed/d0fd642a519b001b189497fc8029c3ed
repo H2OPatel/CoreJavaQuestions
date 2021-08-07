@@ -1,0 +1,47 @@
+package com.java.object.practice;
+
+public class StateInfo {
+	
+	private String stateCode;
+	private String stateName;
+	private String stateCapitol;
+	
+	public StateInfo(String stateCode,String stateName,String stateCapitol) {
+		this.stateCode = stateCode;
+		this.stateName = stateName;
+		this.stateCapitol = stateCapitol;
+	}
+
+	public String getStateCode() {
+		return stateCode;
+	}
+
+	public void setStateCode(String stateCode) {
+		this.stateCode = stateCode;
+	}
+
+	public String getStateName() {
+		return stateName;
+	}
+
+	public void setStateName(String stateName) {
+		this.stateName = stateName;
+	}
+
+	public String getStateCapitol() {
+		return stateCapitol;
+	}
+
+	public void setStateCapitol(String stateCapitol) {
+		this.stateCapitol = stateCapitol;
+	}
+
+	@Override
+	public String toString() {
+		return "StateInfo [stateCode=" + stateCode + ", stateName=" + stateName + ", stateCapitol=" + stateCapitol
+				+ "]";
+	}
+	
+	
+
+}

@@ -1,0 +1,19 @@
+package com.interview.question.clients;
+
+import java.util.Scanner;
+
+public class ReverseTheStringClient {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Plese enter the word -> ");
+		try{
+			String word = sc.next();
+		}catch (Exception e) {
+			System.out.println("Invalid Input");
+		}
+		
+
+	}
+
+}

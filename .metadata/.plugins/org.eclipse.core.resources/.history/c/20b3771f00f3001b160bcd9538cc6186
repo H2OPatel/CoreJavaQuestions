@@ -1,0 +1,53 @@
+package com.interview.question.implementations;
+
+public class PriorirtyQueue {
+
+	Task[] heap;
+	int capacity;
+	int heapsize;
+
+	public PriorirtyQueue(int capacity) {
+		this.capacity = capacity;
+		this.heap = new Task[capacity];
+		this.heapsize = 0;
+	}
+
+	public void clear() {
+		this.heap = new Task[capacity];
+		this.heapsize = 0;
+	}
+
+	public boolean isEmpty() {
+		return heapsize == 0;
+	}
+
+	public boolean isFull() {
+		return heapsize == capacity;
+	}
+
+	public int size() {
+		return heapsize;
+	}
+
+	public void add(String job, int priority) {
+		Task newTask = new Task(job, priority);
+		heap[heapsize] = newTask;
+		int pos = heapsize;
+		while (pos > 0 && newTask.priority > heap[getParentIndex(pos)].priority) {
+			Task temp = heap[pos];
+			heap[pos] = heap[getParentIndex(pos)];
+			heap[getParentIndex(pos)] = temp;
+			pos = getParentIndex(pos);
+		}
+		heapsize++;
+	}
+
+	public int getParentIndex(int i) {
+		return (int) Math.ceil(i / 2) - 1;
+	}
+	public void printHeap ( ) {
+		for(int i=0;i<heapsize;i++) {
+			System.out.println(heap[i]);
+		}
+	}
+}

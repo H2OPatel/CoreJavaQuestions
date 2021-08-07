@@ -1,0 +1,16 @@
+package com.interview.question.implementations;
+
+import java.util.Deque;
+import java.util.HashMap;
+import java.util.Map;
+
+public class LRUCache {
+	int capacity;
+	Map<Integer, String> cache;
+	Deque<Integer> lruQueue;
+	
+	public LRUCache(int capacity) {
+		this.capacity = capacity;
+		this.cache = new HashMap<>(5);
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;PracticeWithJatan&apos;&#x0D;&#x0A;- Original project: &apos;PracticeWithJatan&apos;&#x0D;&#x0A;- Original element: &apos;PracticeWithJatan/src/com.multi.thread.practice.online&apos;" description="Delete element" element1="/src&lt;com.multi.thread.practice.online" element2="/src&lt;com.multi.thread.practice" element3="/src&lt;com.multi.thread" element4="/src&lt;com.multi" elements="4" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1628017968634" subPackages="false" version="1.0"/>
+</session>

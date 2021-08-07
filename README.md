@@ -1,0 +1,2 @@
+# CoreJavaWorkSpaceFromApex
+ CoreJavaFromApex

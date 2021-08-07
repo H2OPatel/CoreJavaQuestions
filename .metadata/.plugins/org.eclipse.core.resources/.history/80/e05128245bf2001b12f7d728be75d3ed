@@ -1,0 +1,8 @@
+package com.interview.question.methods;
+
+public class MaxFromStreamOfIntegers {
+	
+	public static int maxFromStreamOfIntegers () {
+		
+	}
+}

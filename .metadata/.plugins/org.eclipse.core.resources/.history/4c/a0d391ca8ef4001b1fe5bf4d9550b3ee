@@ -1,0 +1,10 @@
+package com.multi.thread.practice.online;
+
+public class BNew {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

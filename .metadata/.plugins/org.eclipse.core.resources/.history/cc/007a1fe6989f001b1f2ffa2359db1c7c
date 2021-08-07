@@ -1,0 +1,28 @@
+package coa.as.core.java.questions;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class ArrayListPractice {
+
+	public static void main(String[] args) {
+
+		List<String> stateName = new ArrayList<>();
+		stateName.add("New York");
+		stateName.add("New Jersy");
+		stateName.add("New Mexico");
+		stateName.add("New Hampshire");
+		stateName.add("Illinois");
+		stateName.add("California");
+		stateName.add("texas");
+		
+		System.out.println("The name of States in USA are as below. ");
+		Iterator<String> itr = stateName.iterator();
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+		
+	}
+
+}

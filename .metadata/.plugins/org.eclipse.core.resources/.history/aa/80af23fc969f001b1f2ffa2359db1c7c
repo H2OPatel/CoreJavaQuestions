@@ -1,0 +1,10 @@
+package coa.as.core.java.questions;
+
+public class ArrayListPractice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

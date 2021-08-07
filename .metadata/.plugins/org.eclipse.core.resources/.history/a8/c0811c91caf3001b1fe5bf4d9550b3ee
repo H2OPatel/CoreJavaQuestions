@@ -1,0 +1,11 @@
+package com.interview.question.clients;
+
+public class BestTimeToBuyAndSellStockClient {
+
+	public static void main(String[] args) {
+		int[] price1= {5,8,9,5,4,10,7,6};
+		int[] price2= {10,7,6,5,2,1};
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.java.object.practice;
+
+public class BasicCalculatorClient {
+
+	public static void main(String[] args) {
+		
+		System.out.println(AdditionMethod.Addition(5, 10));
+		
+	}
+
+}

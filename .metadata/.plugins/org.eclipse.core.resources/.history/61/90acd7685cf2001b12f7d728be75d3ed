@@ -1,0 +1,22 @@
+package com.interview.question.clients;
+
+import java.util.Scanner;
+
+public class MaxFromStreamOfIntegersClient {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		while(true) {
+			System.out.println("Press 1 to enter next integer : ");
+			System.out.println("Press 2 to get Max : ");
+			System.out.println("Press 3 to delete Max : ");
+			int selection = sc.nextInt();
+			switch (selection) {
+			case 1:
+				System.out.println("Enter Integer");
+				int nextInt = sc.nextInt();
+			}
+		}
+	}
+}

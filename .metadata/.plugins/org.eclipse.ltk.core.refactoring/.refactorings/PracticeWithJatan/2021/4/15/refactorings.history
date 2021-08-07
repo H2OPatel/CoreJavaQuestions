@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;basic.java.array.LargestArray.java&apos; to &apos;LargestElementArray.java&apos;&#x0D;&#x0A;- Original project: &apos;PracticeWithJatan&apos;&#x0D;&#x0A;- Original element: &apos;basic.java.array.LargestArray.java&apos;&#x0D;&#x0A;- Renamed element: &apos;basic.java.array.LargestElementArray.java&apos;" description="Rename compilation unit &apos;LargestArray.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;basic.java.array{LargestArray.java" name="LargestElementArray.java" references="false" stamp="1618027635772" version="1.0"/>
+</session>

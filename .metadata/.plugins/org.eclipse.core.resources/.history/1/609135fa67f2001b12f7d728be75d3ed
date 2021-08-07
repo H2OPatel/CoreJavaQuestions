@@ -1,0 +1,11 @@
+package com.interview.question.methods;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class ArrangeInOrderOfRepeatation {
+	
+	public static void arrangeInOrderOfRepeatation (String str) {
+		Map<Character, Integer> charMap = new HashMap<Character, Integer>();
+	}
+}

@@ -1,0 +1,20 @@
+package com.interview.question.methods;
+
+public class ReverseTheString {
+	
+	public static String reverseTheString(String str) {
+		int len = str.length();
+		int left = 0;
+		int right = len-1;
+		
+		char[] word =str.toCharArray();
+		while (left <= right) {
+			char temp = word[left];
+			word[left] = word[right];
+			word[right] = temp;
+			left++;
+			right--;
+		}
+			return String.valueOf(word);
+	}
+}

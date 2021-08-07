@@ -1,0 +1,15 @@
+package com.interview.question.clients;
+
+import com.interview.question.methods.ArrangeInOrderOfRepeatation;
+
+public class ArrangeInOrderOfRepeatationClient {
+
+	public static void main(String[] args) {
+		
+		String str = "lassi";
+		String newStr = ArrangeInOrderOfRepeatation.arrangeInOrderOfRepeatation(str);
+		System.out.println("The New word if we arrange them in order of there repetation then the new word would be : "+newStr);
+
+	}
+
+}

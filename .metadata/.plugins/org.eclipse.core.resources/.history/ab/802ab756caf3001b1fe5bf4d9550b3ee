@@ -1,0 +1,19 @@
+package com.interview.question.methods;
+
+public class BestTimeToBuyAndSellStock {
+	
+	public int bestTimeToBuyAndSellStock(int[] price) {
+		
+		int max = 0;
+		int min = Integer.MAX_VALUE;
+		
+		for (int i =0; i<price.length;i++) {
+			if(min<price[i]) {
+				min = price[i];
+			}else {
+				Math.max(max, price[i]-min);
+			}
+		}
+		return max;
+	}
+}

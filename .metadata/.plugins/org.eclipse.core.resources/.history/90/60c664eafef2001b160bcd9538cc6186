@@ -1,0 +1,15 @@
+package com.interview.question.implementations;
+
+public class PriorirtyQueue {
+	
+	Task[] heap;
+	int capacity;
+	int heapsize;
+	
+	public PriorirtyQueue (int capacity) {
+		this.capacity = capacity;
+		this.heap = new Task[capacity];
+		this.heapsize = 0;
+	}
+
+}
